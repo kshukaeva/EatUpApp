@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+#title{
+  background-color: #1d3557;
+  padding-left: 7%;
+  padding-right: 5%;
+  color: white;
+  border-bottom: 1px solid #eacdc2;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  font-size: 22px;
+}
+#title img{
+  width: 100px;
+  height: 90px;
+
+}
+.title-img{
+    width: 510px;
+    height: 310px;
+    display: block;
+    position: relative;
+}
+#home {
+  padding-top: 8%;
+  text-align: center;
+  background-color: #8a2846;
+  color: white;
+  padding-bottom: 5%;
+}
+#home i{
+  padding-top: 2%;
+}
+.iimg{
+ font-size: 40px;
+ padding-left: 12px;
+}
+#home h3{
+  padding-top: 2%;
+  font-family: 'Courier New', monospace;
+}
+#home h2{
+  font-size: 35px;
+  font-family: 'Courier New', monospace;
+}
+#home .cities {
+  padding-top: 1%;
+  width: 500px;
+  height: 50px;
+}
+.select {
+  font-size: 22px;
+  width: 480px;
+  height: 40px;
+}
+#home .deliver{
+  width: 300px;
+  height: 300px;
+}
+#features{
+  padding-top: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 5%;
+  font-size: 18px;
+}
+#features h5 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+#features p {
+  text-align: center;
+  padding-bottom: 2%;
+}
+#features img{
+  width: 386,5px;
+  height: 290px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+#features .card{
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #774c60;
+}
+#carousel{
+  padding-top: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 5%;
+}
+#carousel img{
+  width: 860px;
+  height: 700px;
+}
+#app{
+  padding-top: 5%;
+  padding-left: 7%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+#app img{
+  width: 550px;
+  height: 450px;
+  border-radius: 7px;
+}
+#app .textapp{
+  padding-top: 7%;
+  text-align: left;
+}
+#app .eat{
+  color: #85182a;
+  font-family:cursive;
+}
+#app .follow{
+  font-family: 'Didot',serif;
+}
+#app .buttons{
+  margin-top: 25px;
+  padding-top: 16px;
+  margin-right: 45px;
+}
+#footer {
+	  background-color: #8a2846;
+}
+#footer .footer {
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#footer .social-icon {
+	display: flex;
+}
+
+#footer img{
+  height: 50px;
+	width: 50px;
+}
+#footer p {
+	color: white;
+	font-size: 17px;
+}
+#footer h1{
+  font-family: 'Courier New', monospace;
+  color: white;
+}
+#footer .container {
+  height: 100px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#partner{
+  padding-top: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 10%;
+  text-align: center;
+}
+#partner img{
+  width: 200px;
+  height:200px;
+}
+#partner h2{
+  text-align: center;
+}
+#partner p{
+  text-align: center;
+}
+#about {
+    text-align: center;
+  	max-width: 1200px;
+  	margin: 0 auto;
+  	padding: 100px 20px;
+}
+#about .section-title{
+  font-family: 'Apple Chancery', cursive;
+}
+#about h2{
+  font-family: monospace;
+  color: #6a040f;
+}
+#about p{
+  font-family: monospace;
+  font-size: 19px;
+}
+#about .col-left {
+	width: 250px;
+	height: 360px;
+  margin-top: 65px;
+}
+#about .col-left .about-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid #1d3557;
+}
+#about .col-left .about-img::after {
+	content: '';
+	position: absolute;
+	left: 50px;
+  bottom: 50px;
+	height: 95%;
+	width: 100%;
+	z-index: -1;
+  border: 10px solid #6a040f;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
